@@ -1,0 +1,21 @@
+.vertical-align {
+    display: flex;
+  
+    flex-direction: row;
+  }
+  ul{
+    list-style-type: none;
+  }
+  .sidebar{
+    border:1px solid red;
+    height:1000px;
+    width:100px
+  }
+ 
+
+  .big-box {
+    height: 10em;
+  }
+  .small-box {
+    height: 3em;
+  }
