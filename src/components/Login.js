@@ -102,7 +102,7 @@ const Login = () => {
               {emailError && <div className='error-msg'>{emailError}</div>}
               <label for="formGroupExampleInput2" class="form-label">Password :</label><br />
               <input type={showPassword ? 'text' : 'password'} id="password" name="password" placeholder="Password" value={password} onChange={handlePasswordChange} style={{ width: "350px", height: "50px", borderRadius: "4px", marginTop: "9px", position: "relative" }} /><br></br>
-              <button type="button" style={{ position: 'absolute', right: 0, top: '50%', transform: 'translateY(-50%)', border: 'none', background: 'none', outline: 'none', cursor: 'pointer', fontSize: "20px", marginRight: "74px", marginTop: "30px" }} onClick={handleTogglePassword}>
+              <button type="button" style={{ position: 'absolute', right: 0, top: '50%', transform: 'translateY(-50%)', border: 'none', background: 'none', outline: 'none', cursor: 'pointer', fontSize: "20px", marginRight: "74px", marginTop: "10px" }} onClick={handleTogglePassword}>
                 {showPassword ? <FaEyeSlash /> : <FaEye />}
               </button>
               {passwordError && <div className='error-msg danger'>{passwordError}</div>}

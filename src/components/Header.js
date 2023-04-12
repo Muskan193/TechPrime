@@ -16,39 +16,39 @@ import { NavLink, useNavigate } from 'react-router-dom';
 const Header = () => {
   return (
     <>
-     {/* <div className='sidebar'>
+      <div className='sidebar'>
     <ul >
-        <li><a href="#"><SpeedTwoToneIcon/></a></li>
-        <li><a href="#"><FormatListBulletedTwoToneIcon/></a></li>
-        <li><a href="#"><AddOutlinedIcon/></a></li>
+        <li><a href="/dashboard"><SpeedTwoToneIcon/></a></li>
+        <li><a href="/pagelisting"><FormatListBulletedTwoToneIcon/></a></li>
+        <li><a href="/createpage"><AddOutlinedIcon/></a></li>
        
-       <li><a href="#"><LogoutIcon/></a></li>
+       <li><a href="/login"><LogoutIcon/></a></li>
       </ul>
-     </div></> */}
-      <Navbar bg="light" expand="lg">
-      <Container fluid>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll ">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
-            navbarScroll
-          >
-            <NavLink style={{ textDecoration: "none", fontWeight: 'bold', fontSize: '19px', color: "black", margin: '10px' }} to="/dashboard"><SpeedTwoToneIcon/></NavLink>
-            <NavLink style={{ textDecoration: "none", fontWeight: 'bold', fontSize: '19px', color: "black", margin: '10px' }} to="/pagelisting"><FormatListBulletedTwoToneIcon/></NavLink>
-            <NavLink style={{ textDecoration: "none", fontWeight: 'bold', fontSize: '19px', color: "black", margin: '10px' }} to="/craetepage"><AddOutlinedIcon/></NavLink>
+     </div></> 
+    //   <Navbar bg="light" expand="lg" className='sidebar'>
+    //   <Container fluid>
+    //     <Navbar.Toggle aria-controls="navbarScroll" />
+    //     <Navbar.Collapse id="navbarScroll ">
+    //       <Nav
+    //         className="me-auto my-2 my-lg-0"
+    //         style={{ maxHeight: '100px' }}
+    //         navbarScroll
+    //       >
+    //         <NavLink style={{ textDecoration: "none", fontWeight: 'bold', fontSize: '19px', color: "black", margin: '10px' }} to="/dashboard"><SpeedTwoToneIcon/></NavLink>
+    //         <NavLink style={{ textDecoration: "none", fontWeight: 'bold', fontSize: '19px', color: "black", margin: '10px' }} to="/pagelisting"><FormatListBulletedTwoToneIcon/></NavLink>
+    //         <NavLink style={{ textDecoration: "none", fontWeight: 'bold', fontSize: '19px', color: "black", margin: '10px' }} to="/craetepage"><AddOutlinedIcon/></NavLink>
         
-          </Nav>
+    //       </Nav>
           
           
-          <NavLink to="/"   >
-            <LogoutIcon />    
-          </NavLink >
-          {/* <CartBtn /> */}
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-     </>
+    //       <NavLink to="/"   >
+    //         <LogoutIcon />    
+    //       </NavLink >
+          
+    //     </Navbar.Collapse>
+    //   </Container>
+    // </Navbar>
+    
      
   )
 }

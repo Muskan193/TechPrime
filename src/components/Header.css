@@ -1,3 +1,6 @@
+body{
+  position:relative;
+}
 .vertical-align {
     display: flex;
   
@@ -9,13 +12,12 @@
   .sidebar{
     border:1px solid red;
     height:1000px;
-    width:100px
+    width:100px;
+    position:fixed;
+  }
+  ul li a{
+    justify-content: space-between;
+
   }
  
 
-  .big-box {
-    height: 10em;
-  }
-  .small-box {
-    height: 3em;
-  }

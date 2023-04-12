@@ -1,0 +1,31 @@
+
+.main-div{
+    height: 100vh;
+    width: 100%;
+   
+    justify-items: center;
+    align-items: center;
+    position: relative;
+
+}
+.sub-div{
+    width: 50%;
+    height: 50vh;
+    justify-content: items
+    ;
+    align-items: center;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.sub-div1{
+    width: 50%;
+    height: 50vh;
+  
+    justify-content: items
+    ;
+    align-items: center;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 200px;
+}
