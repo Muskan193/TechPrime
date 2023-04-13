@@ -5,12 +5,17 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
+import { ProSidebarProvider } from 'react-pro-sidebar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
   <React.StrictMode>
-    <App />
+    
+<ProSidebarProvider>
+<App />
+</ProSidebarProvider>
+    
   </React.StrictMode>
   </BrowserRouter>
 );
