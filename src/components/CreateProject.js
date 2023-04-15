@@ -109,7 +109,7 @@ const CreateProject = () => {
             <img style={{ alignItems: "center", display: 'block', justifyContent: 'center', marginLeft: '700px', marginTop: '-110px', zIndex: -1, position: "relative" }} src={logo} alt='logo' />
 
           </div>
-          <div class="container" style={{ float: 'left', margin: "10px 30px", zIndex: -1, border: "1px solid white", borderRadius: "10px", paddingTop: "20px", boxShadow: "5px 10px 18px #888888", background: "white" }}>
+          <div class="container" style={{ float: 'left', margin: "10px 0px 0px 30px", height:"570px", zIndex: -1, border: "1px solid white", borderRadius: "10px", paddingTop: "20px", boxShadow: "5px 10px 18px #888888", background: "white" }}>
 
             <form class="row" method="POST" >
               <div style={{ marginLeft: "40px" }}>
