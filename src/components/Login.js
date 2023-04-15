@@ -90,7 +90,7 @@ const Login = () => {
           </div>
         </div>
 
-        <div style={{ marginTop: "70px", position: "absolute" }} className="sub-div1">
+        <div style={{ marginTop: "70px" }} className="sub-div1">
 
           <form style={{ border: "1px solid ", height: "480px", width: "441px", margin: "auto", borderRadius: "4%", background: 'white' }} onSubmit={handleFormSubmit}>
             <center><div style={{ color: "gray", padding: "20px", fontSize: "20px" }}>Login to get started</div></center>
@@ -98,7 +98,7 @@ const Login = () => {
             <div className="mb-3" style={{ padding: "10px 32px  " }} >
 
               <label htmlFor="Email">Email:</label><br />
-              <input type="text" id="Email" name="Email" value={email} onChange={handleEmailChange} placeholder="Email" style={{ width: "350px", height: "50px", borderRadius: "4px", marginTop: "9px" }} /><br /><br />
+              <input type="text" id="Email" name="Email" value={email} onChange={handleEmailChange} placeholder="Email" style={{ width: "350px", height: "50px", borderRadius: "4px", marginTop: "9px" }}  /><br /><br />
               {emailError && <div className='error-msg'>{emailError}</div>}
               <label for="formGroupExampleInput2" class="form-label">Password :</label><br />
               <input type={showPassword ? 'text' : 'password'} id="password" name="password" placeholder="Password" value={password} onChange={handlePasswordChange} style={{ width: "350px", height: "50px", borderRadius: "4px", marginTop: "9px", position: "relative" }} /><br></br>
